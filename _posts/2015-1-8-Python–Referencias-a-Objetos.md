@@ -11,15 +11,18 @@ Um pequeno exemplo:
 >>    pass
 ```
 Oque acontece acima. É criado uma classe chamada Teste, que herda da classe object . Heranças de object podem ser omitidas, ficando assim: 
+
 ```python 
 >> class Teste:
 >>    pass
 ``` 
+
 ```python
 >> x = Teste()
 >> x.var1 = 200
 >> x.var2 = 'Python é legal'
 ```
+
 Aqui acontece a magica. É criado os atributos var1 e var2 dentro da instancia x, onde x referencia o objeto Teste que herda de object.
 Muito show, né!? ;)
 
