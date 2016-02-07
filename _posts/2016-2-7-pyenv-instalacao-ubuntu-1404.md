@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pyenv - Instalação no Ubuntu 14.04!
+title: Pyenv - Instalação no Ubuntu 14.04
 ---
 
 Em todas as distribuições linux, o Python já vem instalado por padrão. Mas nem todos possuem a mesma versão, uns usam o Python 2.7 e outros a 3.4 como python global do sistema.
