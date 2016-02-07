@@ -59,7 +59,7 @@ Agora mudando Teste.x para 33, deletamos o atributo x da instancia **t2**, agora
 
 ##### Concluindo
 
-No Python é possível manipular objetos em tempo de execução. Quando criamos um atributo para uma instancia de classe, o atributo pertence somente a instancia e não a classe pai. No ultimo exemplo do *print*(**t2**.x) sendo 33, o interpretador do Python primeiro procura pelo atributo x na instancia, se ele não encontra, ele procura na classe pai, se existe algum atributo x. Se existir, **t2**.x utiliza o atributo x de Teste, nesse caso, modificamos o atributo x da classe Teste. Se o atributo não existir na classe e nem na instancia, ocorre um AttributeError.
+No Python é possível manipular objetos em tempo de execução. Quando criamos um atributo para uma instancia de classe, o atributo pertence somente a instancia e não a classe pai. No ultimo exemplo do *print*(**t2**.x) sendo 33, o interpretador do Python primeiro procura pelo atributo x na instancia, se ele não encontra, ele procura na classe pai, se existe algum atributo x. Se existir, **t2**.x utiliza o atributo x de Teste, nesse caso, modificamos o atributo x da classe Teste. Se o atributo não existir na classe e nem na instancia, ocorre um *AttributeError*.
 
 Tudo isso pode ser feito com métodos, pois os métodos em Python são objetos também!
 
