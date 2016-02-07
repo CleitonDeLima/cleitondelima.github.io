@@ -36,15 +36,15 @@ Agora salve o arquivo o recarregue as informações do .bashrc (ou .zsh) com o c
 source ~/.bashrc
 ```
 
-Executando o comando *```sh pyenv versions```* no terminal, é listado todas as versões do Python que eu tenho instalado no sistema operacional.
+Executando o comando *```pyenv versions```* no terminal, é listado todas as versões do Python que eu tenho instalado no sistema operacional.
 
-Usando o comando *```sh pyenv install -l```*, é listado todas as versões do python que podem ser instaladas, nesse exemplo vamos instalar a versão 3.5.1.
+Usando o comando *```pyenv install -l```*, é listado todas as versões do python que podem ser instaladas, nesse exemplo vamos instalar a versão 3.5.1.
 
-Com o comando *```sh pyenv install 3.5.1```* , é feito o download do python 3.5.1 e a sua compilação.
+Com o comando *```pyenv install 3.5.1```* , é feito o download do python 3.5.1 e a sua compilação.
 
-Novamente executando o comando *```sh pyenv versions```*, veja que temos uma nova versão instalada.
+Novamente executando o comando *```pyenv versions```*, veja que temos uma nova versão instalada.
 
-Para definirmos essa nova versão como padrão no sistema, use o comando *```sh pyenv global 3.5.1```*.
+Para definirmos essa nova versão como padrão no sistema, use o comando *```pyenv global 3.5.1```*.
 
 [//]: #
 [pyenv-installer]: <https://github.com/yyuu/pyenv-installer>
