@@ -29,7 +29,7 @@ Para criar um projeto isolado utilizando o virtualenv:
 ```sh
 mkdir ProjetoPlone
 cd ProjetoPlone
-virtualenv -p python2 –no-site-packages .ProjetoPlone
+virtualenv -p python2 --no-site-packages .ProjetoPlone
 ```
 
 O plone requer que algumas dependências sejam instaladas em seu sistema operacional:
