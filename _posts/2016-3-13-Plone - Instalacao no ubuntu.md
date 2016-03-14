@@ -104,5 +104,5 @@ bin/instance fg
 Com isso, vai ser instanciado um servidor local do plone, para cancelar, só executar ctrl + C.
 
 
-Agora é só acessar o navegador e conhecer o Plone (:
+Agora é só acessar o navegador com a url _http://localhost:8080_ e conhecer o Plone (:
 
