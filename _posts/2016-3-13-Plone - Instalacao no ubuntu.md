@@ -95,7 +95,7 @@ Segue o comando:
 source https://gist.githubusercontent.com/CleitonDeLima/9c8d4392053df16a182e/raw/6372d32d704e41d64504d681bf7223efc5b88019/script_install_plone.sh
 ```
 
-Agora por ultimo, pode rodar o comando:
+Agora por ultimo, depois do Plone instalado é só rodar o comando (verifique que você esteja na pasta do projeto):
 
 ```sh
 bin/instance fg
