@@ -20,7 +20,7 @@ sistema, segue abaixo o comando de instalação do virtualenv:
 Para instalar o virtualenv:
 
 ```sh
-sudo apt-get install pip
+sudo apt-get install python-pip
 sudo pip install virtualenv
 ```
 
@@ -29,7 +29,7 @@ Para criar um projeto isolado utilizando o virtualenv:
 ```sh
 mkdir ProjetoPlone
 cd ProjetoPlone
-virtualenv -p python2 –no-site-packages .PloneTeste
+virtualenv -p python2 –no-site-packages .ProjetoPlone
 ```
 
 O plone requer que algumas dependências sejam instaladas em seu sistema operacional:
