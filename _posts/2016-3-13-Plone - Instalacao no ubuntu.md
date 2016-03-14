@@ -89,10 +89,11 @@ A Instalação pode levar alguns minutos...
 
 #####Caso tenha pulado o passo a passo e queira instalar randando um script
 
-Segue o comando:
+Segue o comando para baixar o script depois executar o mesmo:
 
 ```sh
-source https://gist.githubusercontent.com/CleitonDeLima/9c8d4392053df16a182e/raw/6372d32d704e41d64504d681bf7223efc5b88019/script_install_plone.sh
+wget https://rawgit.com/CleitonDeLima/9c8d4392053df16a182e/raw/6372d32d704e41d64504d681bf7223efc5b88019/script_install_plone.sh
+source script_install_plone.sh
 ```
 
 Agora por ultimo, depois do Plone instalado é só rodar o comando (verifique que você esteja na pasta do projeto):
