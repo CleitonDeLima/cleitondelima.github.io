@@ -87,7 +87,9 @@ Para executar a instalação do Plone, execute o comando:
 
 A Instalação pode levar alguns minutos...
 
-Para instalar randando com o script:
+#####Caso tenha pulado o passo a passo e queira instalar randando um script
+
+Segue o comando:
 
 ```sh
 source https://gist.githubusercontent.com/CleitonDeLima/9c8d4392053df16a182e/raw/6372d32d704e41d64504d681bf7223efc5b88019/script_install_plone.sh
