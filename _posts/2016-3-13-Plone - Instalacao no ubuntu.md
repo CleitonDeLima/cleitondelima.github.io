@@ -87,7 +87,7 @@ Para executar a instalação do Plone, execute o comando:
 
 A Instalação pode levar alguns minutos...
 
-#####Caso tenha pulado o passo a passo e queira instalar randando um script
+#####Caso tenha pulado o passo a passo e queira instalar rodando um script
 
 Segue o comando para baixar o script depois executar o mesmo:
 
