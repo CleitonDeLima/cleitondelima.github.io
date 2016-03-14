@@ -82,12 +82,18 @@ Com isso, vai ser criado um arquivo _buildout.cfg_ dentro da pasta ProjetoPlone.
 Para executar a instalação do Plone, execute o comando:
 
 ```sh
-./ProjetoPlone/bin/buildout
+.ProjetoPlone/bin/buildout
 ```
 
-A Instalação pode levar alguns minutos.
+A Instalação pode levar alguns minutos...
 
-Por ultimo, pode rodar o comando:
+Para instalar randando com o script:
+
+```sh
+source https://gist.githubusercontent.com/CleitonDeLima/9c8d4392053df16a182e/raw/6372d32d704e41d64504d681bf7223efc5b88019/script_install_plone.sh
+```
+
+Agora por ultimo, pode rodar o comando:
 
 ```sh
 bin/instance fg
