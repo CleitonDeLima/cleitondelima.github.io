@@ -52,7 +52,7 @@ Com o virtualenv ativado, vamos instalar duas bibliotecas que o Plone depende:
 
 ```sh
 pip install Pillow
-pip install zc.buildou
+pip install zc.buildout
 ```
 
 Agora vamos criar um arquivo simples de configuração do Plone, dentro da pasta do projeto. Execute o seguinte comando:
