@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plone 5 - Instalação
+title: Plone - Instalação no Ubuntu
 ---
 
 #####Segue abaixo a instalação do Plone 5:
