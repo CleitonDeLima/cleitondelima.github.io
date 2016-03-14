@@ -42,7 +42,7 @@ Agora vamos fazer o nosso projeto reconhecer o python dentro do virtualenv, detr
 (no nosso exemplo foi ProjetoPlone) execute o comando abaixo:
 
 ```sh
-.ProjetoPlone/bin/activate
+source .ProjetoPlone/bin/activate
 ```
 
 Nosso cursor do terminal vai ter as iniciais da pasta criada pelo virtualenv (.PloneTeste)… 
