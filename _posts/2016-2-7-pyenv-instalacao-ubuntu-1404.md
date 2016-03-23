@@ -46,5 +46,18 @@ Novamente executando o comando *```pyenv versions```*, veja que temos uma nova v
 
 Para definirmos essa nova versão como padrão no sistema, use o comando *```pyenv global 3.5.1```*.
 
+
+```sh
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev
+echo '
+export PATH="/home/cleiton/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+' >> ~/.zshrc
+source ~/.zshrc
+pyenv install 3.5.1
+pyenv global 3.5.1
+```
+
 [//]: #
 [pyenv-installer]: <https://github.com/yyuu/pyenv-installer>
