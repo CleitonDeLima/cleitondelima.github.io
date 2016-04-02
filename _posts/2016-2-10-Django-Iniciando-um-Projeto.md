@@ -9,8 +9,8 @@ Comandos basicos para iniciar um projeto em Django
 Adicionando alias no .bashrc:
 
 ```sh
-alias actvenv="source ".${PWD##*/}"/bin/activate"
-alias manage="python $VIRTUAL_ENV/../manage.py"
+alias actvenv='source ".${PWD##*/}"/bin/activate'
+alias manage='python $VIRTUAL_ENV/../manage.py'
 ```
 
 Criando projeto:
